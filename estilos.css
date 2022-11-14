@@ -1,0 +1,157 @@
+/*body*/
+body{
+    margin: 25px 25px 40px 40px;
+    border: 5px 5px 5px 5px ;
+    background-color: rgb(30, 138, 120);
+    padding: 90px 20px 0;
+}
+
+p{
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: burlywood;
+}
+h1{
+    text-align: center;
+    font-family: 'times New Roman', sans-serif;
+    font-size: 28px;
+    color: brown;
+}
+h2{
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 26px;
+    color: rgb(133, 66, 21);
+    padding: 5px 5px 5px 5px;
+}
+/**/
+.table1{
+    font-family: Arial, Helvetica, sans-serif4;
+    border-collapse: collapse;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(199, 198, 198);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+/**/
+.imagen1{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+/*tabla*/
+table{
+    font-family: Arial, Helvetica, sans-serif4;
+    border-collapse: collapse;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(199, 198, 198);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+th{
+    text-align: center;
+    color: rgb(144, 37, 37);
+    border: 2px solid #010101;
+    padding: 8px;
+}
+td{
+    border: 2px solid #010101;
+    text-align: left;
+    padding: 8px;
+    color: rgb(183, 117, 30);
+}
+tr:nth-child(even){
+    background-color: rgb(255, 255, 255);
+}
+.container{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*GALERIA*/
+div.gallery {
+    margin: 15px 15px;
+    border: 1px solid brown;
+    
+    width: 450px;
+}
+div.gallery1 {
+    margin: 15px 15px;
+    border: 1px solid brown;
+    
+    width: 450px;
+}
+div.gallery1:hover {
+    border: 3px solid rgb(186, 197, 28);
+}
+  
+div.gallery1 img {
+    width: 100%;
+    height: auto;
+}
+  
+div.gallery:hover {
+    border: 3px solid rgb(186, 197, 28);
+}
+  
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+  
+div.desc {
+    padding: 15px;
+    text-align: center;
+    color: rgb(183, 117, 30);
+    background-color: rgb(199, 198, 198);
+}
+ /*NAV*/
+.header{
+    background-color: rgb(89, 181, 150);
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-link{
+    color: rgb(115, 89, 55);
+    text-decoration: none;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 80px;
+    color: brown;
+}
+.nav-menu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+.nav-menu-item{
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 45px;
+    text-transform: uppercase;
+}
+.nav-menu-link{
+    padding: 8px;
+    border-radius: 3px;
+}
+.nav-menu-link:hover{
+    background-color: aquamarine;
+    transition: 0.5s;
+}
